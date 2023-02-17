@@ -55,7 +55,7 @@ const cambiarEstado = ()=>{
   setLoading(true);
   setTimeout(()=>{
     setLoading(false);
-  }, 3000);
+  }, 3250);
 
 }
 
@@ -64,7 +64,7 @@ const cambiarEstadoo = ()=>{
   setLoadinge(true);
   setTimeout(()=>{
     setLoadinge(false);
-  }, 3000);
+  }, 3250);
 
 }
 
@@ -80,8 +80,8 @@ const cambiarEstadoo = ()=>{
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
       <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-      <li><a onClick={()=>{navigate("/")}}>Casa</a></li> 
-     <li><a onClick={()=>{navigate("/portafolio")}}>Portafolio</a></li>
+      <li onClick={()=>{cambiarEstadoo()}}><a onClick={()=>{navigate("/")}}>Casa</a></li> 
+     <li onClick={()=>{cambiarEstado()}}><a onClick={()=>{navigate("/portafolio")}}>Portafolio</a></li>
       <li><a>Blog</a></li>
       </ul>
     </div>

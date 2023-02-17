@@ -22,7 +22,7 @@ export const Casa = () => {
 
 
 <Carrousel/>
- <br/><br/>
+ <br/><br/><br/><br/>
  <Youtube/>
  <Tiktok/>
   

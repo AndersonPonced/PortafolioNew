@@ -1,25 +1,20 @@
 import React from 'react'
 
-import logo from './img/dubron.jpg'
+import lol from './img/ander.mp4'
 
 
 export const Loadinge = () => {
   return (
 <div>
     <div className='dubrondi'>
-      <div className="avatar ava">
-    <div className="w-24 mask mask-hexagon">
-      <img src={logo}/>
-    </div>
-  </div>
-    
+     
+     
+    <video  autoPlay loop className='hero min-h-screenv fa'>
+ <source src={lol} type='video/mp4' />
+ </video>
 
 
-<h1 className='dubronfresh'>Dubronfresh</h1>
-<br/>
-<p className='informacion'>Un desarrollador Full Stack es un profesional versátil capaz de 
-    desenvolverse en un desarrollo web tanto en la parte del cliente 
-    (Front End) como del servidor (Back End).</p>
+ 
       
     </div>
     </div>

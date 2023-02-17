@@ -32,8 +32,8 @@ font-family: monospace;
 .front{display: none;}
 
 
-.todo-nombre{display: flex; justify-content:space-around; }
- .nombre{display: flex; background-color: red;}
+.todo-nombre{display: flex; justify-content:space-around; position: relative; top: 60px; background-color: red; }
+ .nombre{display: flex; height: 10vh; }
 .certi{display: none;}
 }
 
@@ -51,11 +51,30 @@ font-family: monospace;
 .fa {
 
   height: 100vh;
+  position: relative;
+  background-color: black;
+  
 
 
 
 }
 
+.faa {
+
+  
+ height: 100vh;
+
+
+}
+
+ 
+
+
+
+ 
+
+
+ 
 
 .lal {
 
