@@ -1,5 +1,6 @@
  import './App.css';
 
+ import React, {Suspense,useState} from 'react';
 import {Navbar} from './Components/Navbar'
 
 import {Portafolio} from './Pages/Portafolio';
@@ -8,7 +9,7 @@ import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
 import Casa from './Pages/Casa';
 import Error from './Pages/Error';
 import Footer from './Components/Footer';
-import { useState } from 'react';
+ 
 import Loading from './Loading';
 import Loadinge from './Loadinge'
 
@@ -48,11 +49,10 @@ return(
     <>   
 
 
- 
 
 <BrowserRouter>
  
-  
+
  <Navbar setLoading={setLoading} setLoadinge={setLoadinge} />
 
      
@@ -68,15 +68,14 @@ return(
      
  
       
- 
+
 </BrowserRouter>
 
 
 
 <Footer/>
 
-
-
+ 
 
 
  </>   

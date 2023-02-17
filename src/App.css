@@ -32,9 +32,26 @@ font-family: monospace;
 .front{display: none;}
 
 
-.todo-nombre{display: flex; justify-content:space-around; position: relative; top: 60px; background-color: red; }
- .nombre{display: flex; height: 10vh; }
+.todo-nombre{display: none; }
+ .contenido{display: none;   }
 .certi{display: none;}
+.saludos{position: relative; left: 20%;}
+.btn-cv{display: none;}
+.avatar{position: relative; left: 235%;}
+.conoci{position: relative; left: -90px;}
+.todolen{
+
+width: 90vw;
+height: 30vh;
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+
+
+
+
+}
+
 }
 
 
@@ -484,4 +501,16 @@ top: 200px;
   
 0%{opacity: 100%;}
 100%{opacity: 0%;}
+}
+
+
+
+.genu{
+
+position: fixed;
+top: 60px;
+z-index: 3;
+opacity: 90%;
+
+
 }
