@@ -1,25 +1,87 @@
-import logo from './logo.svg';
-import './App.css';
+ import './App.css';
+
+import {Navbar} from './Components/Navbar'
+
+import {Portafolio} from './Pages/Portafolio';
+
+import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
+import Casa from './Pages/Casa';
+import Error from './Pages/Error';
+import Footer from './Components/Footer';
+import { useState } from 'react';
+import Loading from './Loading';
+import Loadinge from './Loadinge'
+
+
 
 function App() {
+
+
+   
+
+
+const [loading, setLoading] = useState(false);
+
+const [loadinge, setLoadinge] = useState(false);
+
+
+
+
+if(loading){
+
+  return(
+    <Loading/>
+  )
+}if(loadinge){
+return(
+
+  <Loadinge/>
+)
+
+
+}else{
+
+ 
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>   
+
+
+ 
+
+<BrowserRouter>
+ 
+  
+ <Navbar setLoading={setLoading} setLoadinge={setLoadinge} />
+
+     
+        <Routes>
+
+<Route exact path='/' element={<Casa/>} />
+<Route  path='/portafolio' element={<Portafolio/>} />
+<Route path="*" element={<Error/>} />
+
+</Routes>
+
+     
+     
+ 
+      
+ 
+</BrowserRouter>
+
+
+
+<Footer/>
+
+
+
+
+
+ </>   
   );
+}
 }
 
 export default App;
