@@ -32,7 +32,7 @@ export const Carrousel = () => {
 
 <div className="hero min-h-screenv fa"> 
 
-<video  autoPlay className='hero min-h-screenv faa'>
+<video  autoPlay loop className='hero min-h-screenv faa'>
  <source src={lol} type='video/mp4' />
  </video>
   

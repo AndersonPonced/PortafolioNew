@@ -35,23 +35,13 @@ font-family: monospace;
 .todo-nombre{display: none; }
  .contenido{display: none;   }
 .certi{display: none;}
-.saludos{position: relative; left: 20%;}
 .btn-cv{display: none;}
 .avatar{position: relative; left: 235%;}
-.conoci{position: relative; left: -90px;}
-.todolen{
+ 
+.conoci{position: relative; right: 80px;}
 
-width: 90vw;
-height: 30vh;
- display: flex;
- flex-direction: column;
- flex-wrap: wrap;
-
-
-
-
-}
-
+ 
+ 
 }
 
 
@@ -514,3 +504,5 @@ opacity: 90%;
 
 
 }
+
+ 
