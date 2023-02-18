@@ -1,9 +1,30 @@
 body{
-
+background-color: rgb(42,48,60);
 font-family: monospace;
+color: rgb(166,173,178);
 
 }
 
+.navbar{
+
+  background-color: rgb(36,41,51);
+
+}
+
+
+.f{
+
+  background-color: rgb(36,41,51);
+
+}
+
+ 
+
+
+
+
+.footer{ background-color: rgb(36,41,51);
+  color: rgb(166,173,178);}
 
 @media screen and (max-width: 575px) {
 
@@ -97,6 +118,11 @@ font-family: monospace;
 
 
   width: 40%;
+   
+    background-color: rgb(36,41,51);
+  
+   
+  
  
 
 
@@ -105,7 +131,7 @@ font-family: monospace;
 
  
 .cardii {
-
+  background-color: rgb(36,41,51);
 
   width: 40%;
  
