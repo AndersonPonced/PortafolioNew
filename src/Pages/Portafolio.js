@@ -4,6 +4,10 @@ import Conocimientos from '../ComponentPortafolio/Conocimientos'
 import Curriculum from '../ComponentPortafolio/Curriculum'
 import Idiomas from '../ComponentPortafolio/Idiomas'
 import Perfil from '../ComponentPortafolio/Perfil'
+import Proyectos from '../ComponentPortafolio/Proyectos'
+import Tre from '../Tre'
+import edi from '../img/edi.png'
+
 
 export const Portafolio = () => {
   return (
@@ -12,13 +16,24 @@ export const Portafolio = () => {
   
 <Perfil/>
 
+<div className='anii'>
 
+<p className='ani'>Sigueme en mis redes sociales</p>
+
+
+</div>
+
+
+<Tre/>
 
 <Conocimientos/>
 <Certificados/>
+<Proyectos/>
+
+
 <Idiomas/>
 
-
+<img className='edi' src={edi}></img>
 
     </div>
   )

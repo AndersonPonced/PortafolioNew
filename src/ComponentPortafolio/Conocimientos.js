@@ -18,16 +18,22 @@ export const Conocimientos = () => {
       </div>
       <br/><br/><br/><br/><br/><br/><br/>
 
-      <div className='todolen'>
+      <div className='todolen table table-dark mt-4 table-hover'>
 
-     <img className='lengua' title='Html 100%' src={html}/>
-     <img className='lengua' title='Css 80%' src={css}/>
-     <img className='lengua' title='Javascript 40%' src={javascript}/>
-     <img className='lengua' title='React 40%' src={react}/>
-     <img className='lengua' title='Mysql 5%' src={mysql}/>
+      <div className='leno'>
+     <img className='lengua html' title='Html 100%' src={html}/>
+     <img className='lengua css' title='Css 80%' src={css}/>
+     <img className='lengua java' title='Javascript 40%' src={javascript}/>
+     <img className='lengua react' title='React 40%' src={react}/>
+</div>
+
+<div className='lenoo'>
+     <img className='lengua sq' title='Mysql 5%' src={mysql}/>
      <img className='lengua' title='Node.js 5%' src={node}/>
-     <img className='lengua' title='Git 30%' src={git}/>
+     <img className='lengua giti' title='Git 30%' src={git}/>
      <img className='lengua' title='Sass 30%' src={sass}/>
+
+     </div>
      </div>
 
 

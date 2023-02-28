@@ -1,9 +1,11 @@
-import React from 'react'
+ 
 import { Tiktok } from '../Components/Tiktok';
 import Youtube from '../Components/Youtube';
 import Carrousel from '../Components/Carrousel';
 import Footer from '../Components/Footer';
 import Tik from '../Components/Tik';
+import Canciones from '../Components/Canciones';
+import Albumnes from '../Components/Albumnes';
  
 
 
@@ -11,31 +13,28 @@ import Tik from '../Components/Tik';
 
 export const Casa = () => {
 
-
-
+  
 
   
   return (
+   
     <div>
-
-
 
 
 <Carrousel/>
  <br/><br/><br/><br/>
  <Youtube/>
  <Tiktok/>
-  
- 
- 
-  
-
 <Tik/>
 
 
- 
+<Canciones/>
 
 
+<Albumnes/>     
+
+
+<br/><br/>
 
       
     </div>

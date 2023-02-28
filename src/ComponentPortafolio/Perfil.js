@@ -52,8 +52,10 @@ export const Perfil = () => {
 <h2 className='deve'>¿Quién soy?</h2>
 <br/>
 <div className='todo-nombre'>
+  
 <h3 className='nombre'>Mi nombre es Anderson Ponce, tengo 19 años de edad, mi actual residencia es Argentina y soy un Desarrollador Web</h3>
 </div>
+
 </div>
  </div>
 

@@ -11,8 +11,16 @@ export const Certificados = () => {
    <h1 className='certi'>Certificados</h1>
    </div>
 <br/><br/>
+
+<div className='fronte'>
     <img className='front' src={front}/>
+    </div>
+
+    <div className='backe'>
+      
     <img className='back' src={back}/>
+
+    </div>
 
 
       
