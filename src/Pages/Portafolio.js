@@ -33,8 +33,7 @@ export const Portafolio = () => {
 
 <Idiomas/>
 
-<img className='edi' src={edi}></img>
-
+ 
     </div>
   )
 }

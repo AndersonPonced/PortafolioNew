@@ -1,4 +1,5 @@
  import './App.css';
+ import './Responsive.css'
 
  import React, {Suspense,useState,useEffect} from 'react';
 import {Navbar} from './Components/Navbar'
@@ -12,11 +13,19 @@ import Footer from './Components/Footer';
  
 import Loading from './Loading';
 import Loadinge from './Loadinge';
+import Albumnes from './Components/Albumnes';
+ 
  
 
 
 
 function App() {
+
+
+  
+
+
+
 
   const [isBlack, setIsBlack] = useState(
     () => localStorage.getItem("backgroundColor") === "black"
@@ -69,9 +78,9 @@ return(
     <>   
     <div style={{ backgroundColor }}>
 
-
 <BrowserRouter>
  
+
 
  <Navbar handleButtonClick={handleButtonClick} isBlack={isBlack}  setLoading={setLoading} setLoadinge={setLoadinge} />
 
@@ -85,7 +94,10 @@ return(
         <Routes>
 
 <Route exact path='/' element={<Casa/>} />
+ 
+
 <Route  path='/portafolio' element={<Portafolio/>} />
+ 
 <Route path="*" element={<Error/>} />
 
 </Routes>

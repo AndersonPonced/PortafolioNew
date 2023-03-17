@@ -3,6 +3,10 @@ import buena from '../img/buena.PNG'
 import buenaa from '../img/porta.PNG'
 
 export const Proyectos = () => {
+
+
+
+
   return (
     
     <div className='todo-caja'>

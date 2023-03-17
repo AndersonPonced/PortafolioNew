@@ -5,7 +5,7 @@ import leon from '../img/leon.png'
 
 export const Tiktok = () => {
   return (
-    <div>
+    <div className='ty'>
       
       <div className="card card-side bg-base-100 shadow-xl cardii">
   <figure><img src={leon} alt="Movie"/></figure>

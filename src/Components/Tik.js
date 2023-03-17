@@ -4,7 +4,7 @@ export const Tik = () => {
  
  
    return (
-    <div>
+    <div className='tit'>
       
  
 

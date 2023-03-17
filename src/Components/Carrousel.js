@@ -6,44 +6,42 @@ import Swal from 'sweetalert2'
 
 export const Carrousel = () => {
 
-  const alert = ()=>{
-
-    Swal.fire({
-      title: 'El padrino!',
-      text: 'Te invito a escuchar mi nueva interpretación con la flauta.',
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa_YaWrEvnjdwNusrFicUWZ-CgZIQORf1blg&usqp=CAU',
-      imageWidth: 400,
-      imageHeight: 200,
-      imageAlt: 'Custom image',
-    })
-    
-
-
-
-  }
-     
-   
-
+  
+  
 
 
 
   return (
-    <div>
+    <div className='carrl'>
+ 
+  <div className='hq'>
+<h1 className='h'>Anderson Ponce</h1>
+</div>
 
-<div className="hero min-h-screenv fa"> 
 
-<video  autoPlay loop className='hero min-h-screenv faa'>
- <source src={lol} type='video/mp4' />
- </video>
-  
-  <div className="hero-content text-center text-neutral-content">
-    <div className="max-w-md">
-      <h1 className="mb-5 text-5xl font-bold">Bienvenidos</h1>
-     
-      <button className="btn btn-primary" onClick={()=>{alert()}}>Nuevo</button>
-    </div>
-    
-  </div>
+<div className='hqq'>
+<h2 className='hd '>https://www.tiktok.com/@dubronfresh</h2>
+</div>
+
+<div className='descripcion'>
+
+<p className='  mb-7 text-gray-200 lg:text-lg xl:text-xl'>Bienvenidos a mi sitio Web, mi universo personal en el que encontrarás todo lo que siempre me ha apacionado como la música, la programación web y los podcasts.</p>
+
+<br/>
+<p className='  mb-7 text-gray-200 lg:text-lg xl:text-xl'>¿Visitaste este sitio hace tiempo y lo ves distinto? ¡Es porque lo estoy renovando para ti!</p>
+
+
+
+</div>
+
+<div className='videw'>
+
+<iframe width="641" height="370" className='videwo' src="https://www.youtube.com/embed/LKtAWbPxuEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div className='dubb'>
+ <p className='dub'>Dubronfresh</p>
+ </div>
+
 </div>
 
 

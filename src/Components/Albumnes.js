@@ -25,18 +25,19 @@ export const Albumnes = () => {
 
     
   return (
-    <div>
+    <div className='totalb'>
       
 <div className='albumnes'>
 
-<h1 className='podc'>Poscast y Música</h1>
-
+<div className='podcc'>
+<h1 className='podc '>Poscast y Música</h1>
+</div>
 <div className='album'>
 
-<div> 
+<div className='koko'> 
 
 <a href="https://www.youtube.com/watch?v=EcElQ-tqHG4&list=PLIHAjhsR3HHjTrwYzaFmwsRLf4cPAFYbY&index=7&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder ">
   <img src={senci} alt="placeholder image" />
   <div class="carder-content">
     <h2>Album Sensillo</h2>
@@ -48,9 +49,9 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='koko' > 
 <a  href="https://www.youtube.com/watch?v=X5PZcdQz504&list=PLIHAjhsR3HHjKPSR-rEgCdVZJAvaF-NNZ&ab_channel=AndersonPonce" target={'_blank'}>
-<div class="carder">
+<div class="carder ">
   <img src={lo} alt="placeholder image" />
   <div class="carder-content">
     <h2>Dubronfresh- Lofi</h2>
@@ -63,10 +64,10 @@ export const Albumnes = () => {
 </a>
 </div>
 
-<div> 
+<div className='koko'> 
 
 <a href="https://www.youtube.com/watch?v=a57tmXLpSHs&list=PLIHAjhsR3HHhvI_BHNwWCMUqU_Yg8Gumj&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder ">
   <img src={canci} alt="placeholder image" />
   <div class="carder-content">
     <h2>Canciones diversas</h2>
@@ -79,10 +80,10 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='koko'> 
 
 <a href="https://www.youtube.com/watch?v=w-4i5WDKtHM&list=PLIHAjhsR3HHhCnoeRadmf3xdfZrvZIgT3&index=8&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder ">
   <img src={dubron} alt="placeholder image" />
   <div class="carder-content">
     <h2>Album Dubronfresh</h2>
@@ -94,7 +95,7 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='koko'> 
 
 <a href="#" target={'_blank'}> 
 <div class="carder">
@@ -124,9 +125,9 @@ export const Albumnes = () => {
 
 
 
-<div> 
+<div className='koko'> 
 <a href="#" target={'_blank'}> 
-<div class="carder">
+<div class="carder carderr">
   <img src={podcast} alt="placeholder image" />
   <div class="carder-content">
     <h2>Primer Podcast</h2>
@@ -139,10 +140,10 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='koko' > 
 
 <a href="https://www.youtube.com/watch?v=7GeEONoisss&list=PLIHAjhsR3HHiDDQL2kAUXeIhukQ_moMrv&index=8&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder carderr">
   <img src= {lumiere} alt="placeholder image" />
   <div class="carder-content">
   <h2>Podcast Lumiere</h2>
@@ -155,10 +156,10 @@ export const Albumnes = () => {
 </a>
 </div>
 
-<div> 
+<div className='koko'> 
 
 <a href="https://www.youtube.com/watch?v=KFluwi5n5gs&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder carderr">
   <img src={euter}   alt="placeholder image" />
   <div class="carder-content">
   <h2>Euterpe</h2>
@@ -170,10 +171,10 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='koko'> 
 
 <a href="https://www.youtube.com/watch?v=9z2RHTUaiYA&list=PLIHAjhsR3HHgyvg3ky1DIbWecNeVWxAl6&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder carderr">
   <img src={instru} alt="placeholder image" />
   <div class="carder-content">
   <h2>Instrumentales</h2>
@@ -186,10 +187,10 @@ export const Albumnes = () => {
 </div>
 
 
-<div> 
+<div className='abs koko'  > 
 
 <a href="https://www.youtube.com/watch?v=dI5GHBWkjBY&list=PLIHAjhsR3HHgfnEYxYOxbju_I-MJr_FSl&ab_channel=AndersonPonce" target={'_blank'}> 
-<div class="carder">
+<div class="carder carderr">
   <img src={abs} alt="placeholder image" />
   <div class="carder-content">
     <h2>Abzen</h2>
@@ -231,6 +232,4 @@ export const Albumnes = () => {
 }
 
 export default Albumnes
-
-
 

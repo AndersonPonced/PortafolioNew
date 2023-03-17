@@ -1,7 +1,11 @@
+ 
+
+
 body{
   background-color: rgb(1, 9, 27);
-  font-family: monospace;
-  color: rgb(166,173,178);
+  font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  color: white;
+
   
   
 
@@ -75,128 +79,9 @@ h1 .cursor {
   .footer{ background-color: rgb(36,41,51);
     color: rgb(166,173,178);}
   
-  @media screen and (max-width: 575px) {
-  
-    .cardi {
-      display: block;
-    }
-  
-    .cardii {
-      display: block;
-    }
-  
-    .buscar {
-      display: none;
-    }
-  
-    .cambiars {
-      position: relative;
-      left: 50%;
-    }
-  
-    .img {
-      height: 100vh;
-    }
-    
-  .back{display: none;}
-  .front{display: none;}
-  
-  
-  .todo-nombre{  }
-   .contenido{display: none;  }
-   .perfil{position: relative; left: 30%;}
-   .todo{position: relative; right: -15%;  width: 20px;}
-  .certi{display: none;}
-  .btn-cv{display: none;}
-  .avatar{position: relative; left: 220%; }
-   .todolen{display: block; }
-   .lenguaa{height: 1%;  }
-   .giti{position: relative; left: 22px;}
-   .sq{position: relative; left: 10px;}
-   .css{position: relative; left: 20px;}
-   .html{position: relative; left: 6px; }
-   .java{position: relative; left: 6px; }
-   .react{position: relative; left: 6px; }
-  .conoci{position: relative; right: 80px;}
-  .ani{display: none;}
-  
-   .todo-caja{position: relative; top: 200px; }
-   .ca{height: 50vh; width: 100vw;}
-   .caa{height: 50vh; width: 100vw; position: relative; top: 400px; left: -110px;}
-   .proyec{position: relative; right: 100px;}
-   .btoe{position: relative; top: -100px;}
-
-
-    
-   .edi{display: none;}
-
- 
-
-   .album{
-
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  
-    
-    
-    
-    }
-    
-    .albumm{
-    
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      
-      
-      
-      }
-
-
-      .caja-dos{
-
-position: relative;
-left: -1px;
-
-
-      }
-
-.can{
-
-display: none;
-
-
-}
 
 
 
-.botonesss{
-
-position: relative;
-top: 400px;
-
-
-
-}
-
-.btoe{
-
-display: none;
-position: relative;
-top: -100px;
-}
-
-.bto{
-
-  display: none;
-  
-  }
-
- 
-
-  }
-  
   .lg{
 
 position: relative;
@@ -258,7 +143,9 @@ left: 80px;
     width: 40%;
      
       background-color: rgb(36,41,51);
-    
+    position: relative;
+    left: 1%;
+    top: 110px;
      
     
    
@@ -274,8 +161,8 @@ left: 80px;
     width: 40%;
    
     position: relative;
-    left: 60%;
-    top: -240px;
+    left: 59%;
+    top: -440px;
   
   
   }
@@ -392,10 +279,12 @@ left: 80px;
     position: relative;
     top: 160px;
     border: solid 1px black;
+    
   }
   
-  .back {
   
+  .back {
+
     height: 50vh;
     border-radius: 40px;
     position: relative;
@@ -653,13 +542,13 @@ box-shadow: 0 0 20px 1px  rgb(102, 26, 230);
   
   
   .tito{
-  
+
   position: relative;
-  top: -200px;
+  top: -300px;
   border-radius: 50px;
   border: solid 1px black;
   animation: name 1s infinite alternate ease-in-out;;
-   
+ 
   
   
   
@@ -945,6 +834,10 @@ top: -100px;
 display: flex;
 justify-content:space-between;
 overflow-y: hidden;
+ 
+ 
+   
+     
 
 }
 
@@ -956,6 +849,8 @@ border-radius: 50px;
 width: 24vw;
 height: 1vh;
 margin-left: 10px;
+flex-basis: 25%;
+  flex-grow: 1;
 }
 
 .canal{
@@ -999,12 +894,14 @@ border-radius: 20px;
 }
 
 
+
 .carder {
-  width: 280px;
+  width: 255px;
+  margin-left: 8%;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  margin-right: 5px;
+  margin-right: 10px;
   margin-top: 15px;
   transition: transform 0.2s ease;
   
@@ -1069,10 +966,13 @@ border-radius: 20px;
 
 
 
+
 .album{
 
 display: flex;
 justify-content: space-around;
+ 
+  
 
 
 
@@ -1082,16 +982,27 @@ justify-content: space-around;
 
   display: flex;
   justify-content: space-around;
-  
+   
   
   
   }
+
+.podcc{
+
+ 
+ position: relative;
+margin-left: 23%;
+
+
+
+}
 
 .podc {
   
     position: relative;
     top: -90px;
-   left: 41%;
+   left: 100%;
+    
     width: 50vw;
     font-size: 30px;
     animation: animate-text 2s ease forwards;
@@ -1109,3 +1020,163 @@ justify-content: space-around;
       transform: translateY(0);
     }
   }  
+
+.descripcion{
+ 
+width: 50vw;
+position: relative;
+left: 1%;
+
+
+
+}
+
+.hd{
+ 
+  
+  position: relative;
+ 
+margin-top: 1%;
+  color: #c0c0c0;
+  font-size: 24px;
+  display: inline-block;
+  animation: typing 1s ease-in-out infinite;
+
+}
+
+.hq{
+position: relative;
+  left: 1%;
+width: 26vw;
+
+
+}
+
+.hqq{
+
+ 
+  width: 22vw;
+  position: relative;
+  left: 1%;
+  margin-top: 1%;
+  
+  }
+
+@keyframes typing {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translateY(-1em);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+}
+ 
+
+
+
+
+
+
+
+
+
+.h{
+
+  
+  
+ 
+  position: relative;
+  left: 1%;
+   
+  color: #1a237e;
+  animation: shine 5s ease-in-out infinite;
+
+  
+  }
+
+
+  
+
+  @keyframes shine {
+    0% {
+      color: #1a237e;
+    }
+    50% {
+      color: #7986cb;
+    }
+    100% {
+      color: #1a237e;
+    }
+  }
+  
+  
+
+  .descript{
+
+
+ 
+margin-top: 1%;
+
+
+  }
+
+
+
+.videw{
+
+
+position: relative;
+left: 52%;
+ top: -647px;
+width: 0vw;
+background-color: red;
+
+ 
+
+}  
+
+.videwo{border-radius: 50px;}
+
+.yt{
+
+position: relative;
+top: -100px;
+
+}
+
+ 
+
+.dub{
+
+font-size: 20px;
+position: relative;
+left: 46%;
+width: 8vw;
+
+}
+
+.hh{
+
+ 
+ 
+
+  width: 70vw;
+  font-size: 30px;
+   position: relative;
+   top: -100px;
+   left: 20%;
+
+  
+  }
+
+
+
+  
+
+ 
