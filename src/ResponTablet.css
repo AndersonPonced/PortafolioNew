@@ -1,0 +1,122 @@
+ /* Vertical */
+ @media only  screen and  (min-width: 577px) and (max-width: 768px) {
+
+
+    .album{
+  
+      display: flex;
+      justify-content: center;
+       
+      position: relative;
+      left: 33%;
+    
+   width: 20px;   
+      
+      
+      }
+  
+     .carder{
+  
+  position: relative;
+  left: 200px;
+  
+     }
+      
+     .podcc{
+  
+  position: relative;
+  left: 20%;
+   
+   
+  width: 3px;
+  
+     }
+  .dubb{
+  position: relative;
+  top: 270px;
+  left: 10px;
+  
+  }
+  
+     .hh{ 
+      width: 50vw;}
+      .albumm{
+      
+        display: flex;
+        justify-content: center;
+        
+        
+        position: relative;
+        left: 33%;
+      
+     width: 20px;  
+        
+        }
+  
+  
+  
+        .videwo{
+  
+  
+  position: relative;
+  top: 300px;
+ 
+  height: 35vh;
+  width: 42vw;
+  
+        }
+
+.videwo{
+
+position: relative;
+margin-left: 34px;
+
+
+}
+.dub{
+position: relative;
+left: 137px;
+
+}
+        .carder{
+
+ height:30vh;
+ width: 18vw;
+ position: relative;
+ left: 110px;
+ 
+        }
+  
+  
+  .yt{
+  
+  margin-top: 8%;
+  position: relative;
+  top: -400px;
+  }
+  
+  .ty{
+    position: relative;
+    top: -85px;
+  
+  
+  }
+  
+  .descript{
+   
+  width: 98vw;
+  
+  
+  }
+  
+  .h{
+  
+  width: 50vw;
+  
+  
+  }
+  
+  
+  }
+  
+  

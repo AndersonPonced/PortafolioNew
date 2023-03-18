@@ -1,5 +1,8 @@
  import './App.css';
  import './Responsive.css'
+ import './ResponTablet.css'
+ import './ResponLaptop.css'
+
 
  import React, {Suspense,useState,useEffect} from 'react';
 import {Navbar} from './Components/Navbar'
