@@ -87,7 +87,8 @@ top: -60px;
       display: flex;
       
       flex-direction: column;
-      
+   position: relative;
+   margin-left: 8%;     
       
       
       }
@@ -207,7 +208,7 @@ display: none;
 
 
   position: relative;
-  left: 48%;
+  left: 40%;
   
 
 }
