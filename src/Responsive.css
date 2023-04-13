@@ -27,14 +27,18 @@
   .front{display: none;}
   
   
-  .todo-nombre{  }
+  
    .contenido{display: none;  }
    .perfil{position: relative; left: 30%;}
    .todo{position: relative; right: -15%;  width: 20px;}
   .certi{display: none;}
   .btn-cv{display: none;}
   .avatar{position: relative; left: 220%; }
-   .todolen{display: block; }
+   .todolen{display: block;height: 70vh;}
+
+   .lenoo{  position: relative; left: 53%; width: 150px; top: -540px;}
+
+
    .lenguaa{height: 1%;  }
    .giti{position: relative; left: 22px;}
    .sq{position: relative; left: 10px;}
@@ -48,7 +52,8 @@
    .todo-caja{position: relative; top: 200px; }
    .ca{height: 50vh; width: 100vw;}
    .caa{height: 50vh; width: 100vw; position: relative; top: 400px; left: -110px;}
-   .proyec{position: relative; right: 100px;}
+   .proyects{position: relative; right: 42px; }
+  
    .btoe{position: relative; top: -100px;}
 
 
@@ -93,14 +98,34 @@ top: -60px;
       
       }
 
+      .caja-uno{
+
+        position: relative;
+        left: 17px;
+        
+        
+        
+              }
+        
+
 
       .caja-dos{
 
 position: relative;
-left: -1px;
+left: 126px;
+height: 100vh;
 
 
       }
+
+      .badgep{
+        position: relative;
+        left: -150px;
+        top: -20px;
+      }
+
+ 
+
 
 .can{
 
@@ -114,22 +139,43 @@ display: none;
 .botonesss{
 
 position: relative;
-top: 400px;
+top:200px;
+left: -127px;
 
 
 
 }
+
+.botoness{
+
+  position: relative;
+  top: -250px;
+  left: -30px;
+ 
+  
+  
+  
+  }
+
+   
+  
+   
+
+ 
 
 .btoe{
 
 display: none;
 position: relative;
 top: -100px;
+ 
+ 
 }
 
 .bto{
 
   display: none;
+  background-color: red;
   
   }
 
@@ -212,6 +258,12 @@ display: none;
   
 
 }
+
+.cardd{
+width: 90vw;
+
+}
+
 .tit{
 
 width: 90vw;

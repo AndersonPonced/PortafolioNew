@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import { useNavigate } from "react-router-dom";
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Route, Routes, Link, NavLink } from "react-router-dom";
 import Casa from '../Pages/Casa';
 import Portafolio from '../Pages/Portafolio';
@@ -7,6 +6,7 @@ import ReactPlayer from 'react-player';
 
 import Swal from 'sweetalert2'
 import Iconos from './Iconos';
+import { useNavigate, useLocation } from "react-router-dom";
 
 export const Navbar = ({setLoading,setLoadinge, handleButtonClick, isBlack}) => {
 
@@ -20,7 +20,7 @@ const navigate = useNavigate()
   
 
  
-
+const location = useLocation();
 
 const alert = ()=>{
 
@@ -57,7 +57,18 @@ const cambiarEstadoo = ()=>{
 
 }
 
-
+useEffect(() => {
+  switch (location.pathname) {
+    case "/":
+      document.title = "AndersonPonced | Música ";
+      break;
+    case "/portafolio":
+      document.title = " Portafolio";
+      break;
+    default:
+      document.title = "AndersonPonced";
+  }
+}, [location.pathname]);
 
 
 

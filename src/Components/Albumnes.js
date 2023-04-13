@@ -40,8 +40,8 @@ export const Albumnes = () => {
 <div class="carder ">
   <img src={senci} alt="placeholder image" />
   <div class="carder-content">
-    <h2>Album Sensillo</h2>
-    <p>Este es el contenido de la card.</p>
+    <h2>Album Sencillo</h2>
+    <p>Sencillo  es mi primer album musical.</p>
     <div className="badge badge-secondary">Rap</div>
   </div>
 </div>
@@ -55,7 +55,7 @@ export const Albumnes = () => {
   <img src={lo} alt="placeholder image" />
   <div class="carder-content">
     <h2>Dubronfresh- Lofi</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Son pistas para poder relajarse.</p>
     <div className="badge badge-secondary">Lofi</div>
     <div className="badge badge-secondary">Relax</div>
   </div>
@@ -71,7 +71,7 @@ export const Albumnes = () => {
   <img src={canci} alt="placeholder image" />
   <div class="carder-content">
     <h2>Canciones diversas</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Son canciones que no pertenecen a un album conceptual.</p>
     <div className="badge badge-secondary">Rap</div>
     <div className="badge badge-secondary">Varios</div>
   </div>
@@ -87,7 +87,7 @@ export const Albumnes = () => {
   <img src={dubron} alt="placeholder image" />
   <div class="carder-content">
     <h2>Album Dubronfresh</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Mi primer album con una buena producción 😂.</p>
     <div className="badge badge-secondary">Rap</div>
   </div>
 </div>
@@ -102,7 +102,7 @@ export const Albumnes = () => {
   <img src={cosmos} alt="placeholder image" />
   <div class="carder-content">
     <h2>Album Cosmos</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Mi primer album en donde aplico licencias poeticas 🖊️.</p>
     <div className="badge badge-secondary">Rap</div>
     <div className="badge badge-secondary">Experimento</div>
     
@@ -131,7 +131,7 @@ export const Albumnes = () => {
   <img src={podcast} alt="placeholder image" />
   <div class="carder-content">
     <h2>Primer Podcast</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>En este podcast hablo sobre temas relacionados con el rap</p>
     <div className="badge badge-secondary">Primer Podcast</div>
     <div className="badge badge-secondary">Tranqui</div>
   </div>
@@ -147,7 +147,7 @@ export const Albumnes = () => {
   <img src= {lumiere} alt="placeholder image" />
   <div class="carder-content">
   <h2>Podcast Lumiere</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Hablo sobre temas filosóficos sobre la música.</p>
     <div className="badge badge-secondary">Segundo Podcast</div>
     <div className="badge badge-secondary">Lumiere</div>
      
@@ -163,7 +163,7 @@ export const Albumnes = () => {
   <img src={euter}   alt="placeholder image" />
   <div class="carder-content">
   <h2>Euterpe</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Este album representa mi sentimiento de querer hacer cosas nuevas.</p>
     <div className="badge badge-secondary">Instrumental</div>
   </div>
 </div>
@@ -178,7 +178,7 @@ export const Albumnes = () => {
   <img src={instru} alt="placeholder image" />
   <div class="carder-content">
   <h2>Instrumentales</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Son Experimentos.</p>
     <div className="badge badge-secondary">Instrumental</div>
     <div className="badge badge-secondary">Experimento</div>
   </div>
@@ -194,7 +194,7 @@ export const Albumnes = () => {
   <img src={abs} alt="placeholder image" />
   <div class="carder-content">
     <h2>Abzen</h2>
-    <p>Este es el contenido de la card.</p>
+    <p>Abzen es una representación artistica del Freestyle en mi.</p>
     <div className="badge badge-secondary">Freestyle</div>
   </div>
 </div>

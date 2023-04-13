@@ -254,7 +254,7 @@ left: 80px;
     display: block;
     white-space: nowrap;
     border-right: 4px solid;
-    width: 115ch;
+    ;
   
   animation: typing 2s steps(12), blink
    30s infinite step-end alternate;
@@ -905,6 +905,7 @@ border-radius: 20px;
   margin-top: 15px;
   transition: transform 0.2s ease;
   position: relative;
+  
 
 }
 

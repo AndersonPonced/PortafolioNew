@@ -1,5 +1,16 @@
 @media only  screen and  (min-width: 1024px) {
 
+   /* .back{height: 20vh; position: relative; top: -10px;}
+   .front{height: 20vh; margin-block-end: 100px;}
+   .caja-dos{position: relative; left: 73.3%; top: -700px; width: 10vw; background-color: red;}
+      .botoness{position: relative; top: -250px;}
+   .botonesss{position: relative; left: 45%;top: -250px; width: 30vw;}
+   .btooo{position: relative; left: 150%;}
+   .btoe{position: relative; left: 120%;}
+    */
+
+
+
     .album{
   
         display: flex;
@@ -123,9 +134,19 @@
 @media only  screen and  (min-width: 1440px) {
 
 
+.back{height: 30vh; position: relative; top: -300px;}
+.front{height: 30vh; margin-block-end: 100px;}
+.caja-dos{position: relative; left: 73.3%; top: -700px; width: 10vw; background-color: red;}
+   .botoness{position: relative; top: -250px;}
+.botonesss{position: relative; left: 45%;top: -250px; width: 30vw;}
+.btooo{position: relative; left: 150%;}
+.btoe{position: relative; left: 120%;}
 
 
-    .album{
+
+
+
+.album{
   
         display: flex;
         justify-content: center;

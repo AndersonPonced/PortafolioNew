@@ -53,7 +53,7 @@ export const Perfil = () => {
 <br/>
 <div className='todo-nombre'>
   
-<h3 className='nombre'>Mi nombre es Anderson Ponce, tengo 19 años de edad, mi actual residencia es Argentina y soy un Desarrollador Web</h3>
+<h3 className='nombre nombree'>Mi nombre es Anderson Ponce, tengo 19 años de edad, mi actual residencia es Argentina y soy un Desarrollador Web</h3>
 </div>
 
 </div>

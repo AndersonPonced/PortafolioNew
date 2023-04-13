@@ -7,6 +7,7 @@ import Tik from '../Components/Tik';
 import Canciones from '../Components/Canciones';
 import Albumnes from '../Components/Albumnes';
  
+ 
 
 
 
@@ -34,8 +35,10 @@ export const Casa = () => {
 <Albumnes/>     
 
 
-<br/><br/>
 
+
+<br/><br/>
+ 
       
     </div>
   )

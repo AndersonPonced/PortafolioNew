@@ -11,18 +11,19 @@ export const Proyectos = () => {
     
     <div className='todo-caja'>
         
+        <div className='proyects'>
 <h1 className='proyec'>Proyectos</h1>
-
+</div>
 <div className='cajas'>
 
 <div className='caja-uno'>
 
-<div className="card w-96 bg-base-100 shadow-xl ca">
+<div className="card cardd w-96 bg-base-100 shadow-xl ca">
   <figure><img src={buena} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">
       BuenaventurandoAndo
-      <div className="badge badge-secondary">Primero</div>
+      <div className="badge badgep badge-secondary">Primero</div>
     </h2>
     <p>Este es mi primer proyecto</p>
     <div className="card-actions justify-end">
@@ -37,7 +38,7 @@ export const Proyectos = () => {
 
 <div className='caja-dos'>
 
-<div className="card w-96 bg-base-100 shadow-xl caa">
+<div className=" card cardd  cards w-96 bg-base-100 shadow-xl caa">
   <figure><img src={buenaa} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">

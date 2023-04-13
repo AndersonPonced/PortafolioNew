@@ -116,8 +116,21 @@ left: 137px;
   
   
   }
-  
-  
+
+
+  .back{height: 30vh; position: relative; top: -375px; left: 436px;}
+  .front{height: 30vh; margin-block-end: 300px;}
+  .cardd{height: 50vh; width: 40vw;}
+  .caja-dos{position: relative; left: 60%; top: -490px;}
+  .botoness{position: relative; left: 100px;  width: 100px; top: 90px;}
+  .botonesss{position: relative; left: 560px; width: 100px; top: 140px;}
+  .btooo{display: none;}
+  .btoo{display: none;}
+.nombre{display: none;}
+.contenido{display: none; }
+.perfil{position: relative;left: 110%;}
+  .btn-cv{width: 50vw; position: relative; left: 200px;}
+  .todo{position: relative; left: 90px; width: 30vw;}
   }
   
   
